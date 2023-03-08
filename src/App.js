@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {AddBudgetModal, AddExpenseModal, BudgetCard, TotalBudgetCard, UncategorizedBudgetCard, ViewExpensesModal } from './components/index';
 import {Button, Stack, Container} from 'react-bootstrap';
 import { Uncategorized_Budget_ID, useBudgets } from './contexts/BudgetsContext';
-import './App.css';
+
 
 
 function App() {
